@@ -40,11 +40,14 @@ turn = 'Player1'
 
 # handle mouse clicks
 def onClick(cursorPositionX, cursorPositionY):
+    # Write code here
+    pass
 
 
 # handle whats visible in the window
 def draw(window):
-    
+    # Write code here
+    pass
 
 
 
