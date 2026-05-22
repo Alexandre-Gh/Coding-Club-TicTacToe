@@ -1,0 +1,1 @@
+python3 -m pip install .\files\pygame-2.6.1-cp313-cp313-win_amd64.whl
