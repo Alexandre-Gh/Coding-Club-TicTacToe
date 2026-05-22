@@ -115,3 +115,5 @@ This will automatically install Pygame for the project.
 
 The project files should now appear in the left sidebar of Visual Studio Code.
 You can now begin working on the code.
+
+Whenever you want to test your code, you can click the `RUN` button (the arrow) on the top right

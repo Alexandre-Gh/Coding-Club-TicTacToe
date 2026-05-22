@@ -29,6 +29,8 @@ At the end of this document, you will see a list of functions already set up for
 ### 1. Change Window Size  
 **Concept:** Variables & running a file  
 
+When you launch the project, you will see the window is very small. This is not ideal...
+
 Modify the variables controlling the game window size and execute the Python file.
 
 **You’ll learn:**
