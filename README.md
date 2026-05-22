@@ -74,9 +74,44 @@ Then:
 
 ---
 
-## 6. Project opened successfully
+## 6. Install Python
+
+If Python is not already installed on your computer:
+
+1. Download Python here:
+
+https://www.python.org/ftp/python/3.13.13/python-3.13.13-amd64.exe
+
+2. Open the downloaded installer
+3. Make sure to check:
+
+```text
+Add Python to PATH
+```
+
+4. Click **Install Now**
+5. Wait for the installation to complete
+
+---
+
+## 7. Install Pygame
+
+After Python has finished installing:
+
+1. Return to the project folder
+2. Locate the file:
+
+```text
+install-pygame.bat
+```
+
+3. Double-click the file
+
+This will automatically install Pygame for the project.
+
+---
+
+## 9. Project opened successfully
 
 The project files should now appear in the left sidebar of Visual Studio Code.
 You can now begin working on the code.
-
-

@@ -13,9 +13,10 @@ By the end, you’ll have:
 ---
 
 ## 🧰 Prerequisites
-- A laptop *(can be provided during offline sessions)*  
-- A code editor such as [Visual Studio Code](https://code.visualstudio.com/Download) or similar  
-- Python installed on your computer  
+- A laptop *(can be provided during offline sessions)*
+- A code editor such as [Visual Studio Code](https://code.visualstudio.com/Download) or similar
+- [Python 3.13](https://www.python.org/ftp/python/3.13.13/python-3.13.13-amd64.exe) installed on your computer
+- PyGame installed on your computer (see `install-pygame.bat` script in repository)
 - The project repository downloaded and ready
 
 ---
