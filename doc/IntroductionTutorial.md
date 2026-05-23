@@ -56,6 +56,66 @@ Here, the value stored in `turn` changes over time.
 
 ---
 
+## Global variables:
+
+A **global variable** is a variable that exists outside of functions and can be accessed from different parts of the program.
+
+Example:
+
+```python
+turn = 'Player1'
+```
+
+Here, `turn` is created outside of any function, so it is a global variable.
+
+Functions can read global variables:
+
+```python
+turn = 'Player1'
+
+def printTurn():
+    print(turn)
+```
+
+In this example, the function uses the value stored in `turn`.
+
+---
+
+### Modifying a global variable
+
+If a function needs to change a global variable, Python requires the `global` keyword.
+
+Example:
+
+```python
+turn = 'Player1'
+
+def nextTurn():
+    global turn
+
+    turn = 'Player2'
+```
+
+This tells Python that the function should modify the global variable instead of creating a new local variable.
+
+Without `global`, Python would create a separate variable inside the function.
+
+---
+
+### Why global variables are useful
+
+Global variables are often used to store information shared across the whole game, such as:
+
+```python
+turn = 'Player1'
+gameRunning = True
+winner = None
+```
+
+These variables can then be accessed or modified by different functions during the game.
+
+---
+
 ## Lists: storing multiple values
 
 A variable can also store multiple values using a **list**.
